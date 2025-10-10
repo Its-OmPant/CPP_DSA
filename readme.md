@@ -9,3 +9,5 @@ List of sections and link to the problem set can be found below.
 
 -   01 Arrays [Problem Set](./01_arrays/readme.md)
 -   02 Matrix [Problem Set](./02_matrix/readme.md)
+-   03 String Basics [Problem Set](./03_string_basics/readme.md)
+-   04 Pointers [Problem Set](./04_pointers/readme.md)
