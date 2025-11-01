@@ -34,3 +34,103 @@
 
 9. Define a class StaticCount and create a static variable. Increment this variable in a
    function and call this 3 times and display the result.
+
+10. Define a class Complex with appropriate instance variables and member functions.
+    Define following operators in the class:
+
+    1. (+)
+    2. (-)
+    3. (\*)
+    4. (==)
+
+11. Write a C++ program to overload unary operators that is increment and decrement.
+
+12. Write a C++ program to add two complex numbers using operator overloaded by a friend function.
+
+13. Create a class Time which contains: Hours, Minutes, Seconds. Write a C++ program using operator overloading for the following:
+
+-   (==) : To check whether two Times are the same or not.
+-   (>>) To accept the time.
+-   (<<) : To display the time.
+    Output -
+
+    ![Image](./assets/ps13.png)
+
+14. Consider following class Numbers
+
+    ```c++
+    class Numbers
+    {
+    int x,y,z;
+    public:
+    // methods
+    };
+    ```
+
+    Overload the operator unary minus (-) to negate the numbers.
+
+15. Create a class CString to represent a string. Overload the
+    -   (+) operator to concatenate two strings.
+    -   == to compare 2 strings.
+16. Define a C++ class fraction
+
+    ```c++
+    class fraction
+    {
+    long numerator;
+    long denominator;
+    Public:
+    fraction (long n=0, long d=0);
+    }
+    Overload the following operators as member or friend:
+    a) Unary ++ (pre and post both)
+    b) Overload as friend functions: operators << and >>.
+    ```
+
+    Output-
+
+    ![Image](./assets/ps16.png)
+
+17. Consider a class Matrix
+
+    ```c++
+    Class Matrix
+    {
+    int a[3][3];
+    Public:
+    //methods;
+    };
+    ```
+
+    Overload the - (Unary) should negate the numbers stored in the object.
+    Output -
+    ![Image](./assets/ps17.png)
+
+18. Consider the following class mystring
+
+    ```c++
+    Class mystring
+    {
+    char str [100];
+    Public:
+    // methods
+    };
+    ```
+
+    Overload operator “!” to reverse the case of each alphabet in the string (Uppercase to
+    Lowercase and vice versa).
+
+19. Let m1 and m2 are two matrices. Find out m3=m1+m2 (use operator overloading).
+
+    ```c++
+    Class Matrix
+    {
+    int a[3][3];
+    Public:
+    //methods;
+    };
+    ```
+
+    Output -
+
+    ![image](./assets/ps19.png)
